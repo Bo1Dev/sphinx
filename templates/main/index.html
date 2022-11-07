@@ -1,0 +1,50 @@
+{% load static %}
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css1/style.css' %}">
+    </head>
+<body>
+    <div class = "d-flex">
+        <div class="row">
+            <div class="col-4">
+                <form class="d-flex paddings" role="search" action="{% url 'main_index' %}">
+                     <input class="form-control me-3" type="search" placeholder="ОТ" aria-label="Search" name="ot">
+                     <input class="form-control me-3" type="search" placeholder="ДО" aria-label="Search" name="do">
+                     <button type="submit" class="btn btn-success">Save</button>
+                </form>
+
+            </div>
+            <div class = "col-8">
+                <form class="d-flex paddings" role="search" action="{% url 'main_index' %}">
+        <!--            <input class="form-control me-3" type="search" placeholder="First_name" aria-label="Search" name="First_name">-->
+        <!--            <input class="form-control me-3" type="search" placeholder="Last_name" aria-label="Search" name="Last_name">-->
+                        <input class="form-control me-3" type="search" placeholder="Name" aria-label="Search" name="name">
+                    <button type="submit" class="btn btn-success">Save</button>
+                </form>
+                <table class="table">
+                    <thead>
+                        <th>ID</th>
+                        <th>Ism</th>
+                        <th>Familiya</th>
+                        <th>Tugilgan sana</th>
+                    </thead>
+                    <tbody>
+                        {% for item in datas %}
+                        <tr>
+                            <td>{{item.id}}</td>
+                            <td>{{item.first_name}}</td>
+                            <td>{{item.last_name}}</td>
+                            <td>{{item.birthday}}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

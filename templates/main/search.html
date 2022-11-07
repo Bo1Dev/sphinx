@@ -1,0 +1,40 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'vendor/bootstrap/css/bootstrap.css' %}">
+</head>
+<body>
+<form method="get" class="well form-search form-inline center">
+    {% for f in form %}
+
+        <button class="btn" type="submit">Search</button>
+    {% endfor %}
+</form>
+{% if query %}
+    <p>Your search for "{{query}}" returned results: {{total}}</p>
+    <hr />
+    {% for result in results.object_list %}
+        <p class="top20">&bull; <a href="{{ result.get_absolute_url }}">{{ result.name }}</a></p>
+        <p>{{ result.description }}</p>
+    {% empty %}
+        <div class="alert-message info">
+            <p>No results.</p>
+        </div>
+    {% endfor %}
+    {% if results %}
+            <div class="pager">
+                <ul>
+                    {% if results.has_previous %}
+                        <li><a href="?q={{ query }}&amp;page={{ results.previous_page_number }}">&larr; previous page</a></li>
+                    {% endif %}
+                    <li>Page {{ results.number }} from {{ results.paginator.num_pages }}</li>
+                    {% if results.has_next %}
+                        <li><a href="?q={{ query }}&amp;page={{ results.next_page_number }}">next page &rarr;</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+    {% endif %}
+{% endif %}
+</body>
+</html>
