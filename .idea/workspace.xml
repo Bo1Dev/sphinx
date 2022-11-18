@@ -5,51 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d821961-00b9-453a-8bd0-0b0df09260a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/_exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/_mysql.cpython-38-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/connections.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/constants/CLIENT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/constants/CR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/constants/ER.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/constants/FIELD_TYPE.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/constants/FLAG.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/constants/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/converters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/cursors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/release.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/MySQLdb/times.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/mysqlclient-2.1.1.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/mysqlclient-2.1.1.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/mysqlclient-2.1.1.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/mysqlclient-2.1.1.egg-info/installed-files.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/mysqlclient-2.1.1.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel-0.38.2.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel-0.38.2.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel-0.38.2.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel-0.38.2.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel-0.38.2.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel-0.38.2.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel-0.38.2.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/_setuptools_logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/bdist_wheel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/cli/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/cli/convert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/cli/pack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/cli/unpack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/macosx_libfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/metadata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/vendored/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/vendored/packaging/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/vendored/packaging/_manylinux.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/vendored/packaging/_musllinux.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/vendored/packaging/tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env/lib/python3.8/site-packages/wheel/wheelfile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/table/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/table/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +98,9 @@
       <workItem from="1667874376570" duration="812000" />
       <workItem from="1667972750029" duration="6683000" />
       <workItem from="1667995005948" duration="771000" />
-      <workItem from="1668021145799" duration="1221000" />
+      <workItem from="1668021145799" duration="2362000" />
+      <workItem from="1668150729580" duration="185000" />
+      <workItem from="1668783823267" duration="2658000" />
     </task>
     <servers />
   </component>

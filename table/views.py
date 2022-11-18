@@ -31,9 +31,9 @@ def main_index(request):
                 })
         elif dan and gacha:
             s = get_spx_results()
-            dan = int(dan)
-            gacha = int(gacha)
-            s.SetFilterRange('birthday_s', dan, gacha)
+            ot = int(datetime.timestamp(datetime.now().replace(year=datetime.now().year - int(gacha))))
+            do = int(datetime.timestamp(datetime.now().replace(year=datetime.now().year - int(dan))))
+            s.SetFilterRange('birthday_s', ot, do)
             result = s.Query("",index = 'mytest')
             users = []
             if result and result['status'] == 0 and result['total']:
